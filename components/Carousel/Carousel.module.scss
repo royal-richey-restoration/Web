@@ -1,0 +1,44 @@
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+  progress {
+    height: 8px;
+    width: 80%;
+    border-radius: 7px;
+    max-width: 400px;
+    margin: 0px auto 24px;
+  }
+  progress::-webkit-progress-bar {
+    border-radius: 7px;
+    background-color: #cccccc;
+  }
+  progress::-webkit-progress-value {
+    border-radius: 7px;
+    background-color: var(--orange);
+  }
+  progress::-moz-progress-bar {
+    border-radius: 7px;
+    background-color: #cccccc;
+  }
+
+  .childrenContainer {
+    overflow-x: scroll;
+    width: 100%;
+    display: flex;
+    cursor: grab;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    &:active {
+      cursor: grabbing;
+    }
+
+    img {
+      user-select: none;
+    }
+  }
+}

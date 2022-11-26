@@ -15,20 +15,9 @@ export default function Document() {
           property="og:description"
           content="Hardwood Floor Repair and Restoration by the professionals in hardwood flooring: Royal Hardwood Floors. Call: 727-267-2617"
         />
-        <link
-          rel="icon"
-          href="https://royalwoodfloors.com/wp-content/uploads/2020/04/cropped-logo_RWF-site-identity-32x32.png"
-          sizes="32x32"
-        />
-        <link
-          rel="icon"
-          href="https://royalwoodfloors.com/wp-content/uploads/2020/04/cropped-logo_RWF-site-identity-192x192.png"
-          sizes="192x192"
-        />
-        <link
-          rel="apple-touch-icon"
-          href="https://royalwoodfloors.com/wp-content/uploads/2020/04/cropped-logo_RWF-site-identity-180x180.png"
-        />
+        <link rel="icon" href="/logo-32x32.png" sizes="32x32" />
+        <link rel="icon" href="/logo-192x192.png" sizes="192x192" />
+        <link rel="apple-touch-icon" href="logo-backgroundless.png" />
       </Head>
       <body>
         <Main />

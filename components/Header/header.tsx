@@ -11,7 +11,7 @@ export const Header = () => {
 
   const toggleOpen = () => setOpen((prev) => !prev);
 
-  React.useLayoutEffect(() => {
+  React.useEffect(() => {
     if (typeof window !== "undefined") {
       const handleWindowSize = () => {
         if (window.innerWidth > 1023) setMobile(false);
@@ -120,6 +120,12 @@ export const Header = () => {
         Richey <br />
         Restoration
       </h1>
+      <Image
+        src="/images/certificates/nwfa-header.png"
+        alt="nwfa certification"
+        height={64}
+        width={64}
+      />
       <div className={styles.desktop}>
         <Link href="/">Home</Link>
         <Link href="/about">About Us</Link>
