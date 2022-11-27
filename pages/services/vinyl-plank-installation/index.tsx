@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { ServicePage } from "../ServicePage";
+import { ServicePage } from "../../../components";
 
 export default function FloorBuffingRecoating() {
   return (

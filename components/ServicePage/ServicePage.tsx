@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 
 import styles from "./ServicePage.module.scss";
-import { SERVICES } from ".";
+import { SERVICES } from "../../pages/services";
 
 interface ServicePageProps extends React.PropsWithChildren {
   pageHref: string;
