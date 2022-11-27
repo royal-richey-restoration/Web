@@ -88,3 +88,62 @@
     }
   }
 }
+
+.imageGallery {
+  padding: 0px min(max(16px, 8%), 240px) 72px;
+
+  h2 {
+    margin: 0px 0px 48px;
+    padding: 48px 0px 0px;
+    color: #666666;
+    border-top: 1px solid #afafaf;
+    text-align: center;
+    font-size: min(max(24px, 2vw), 36px);
+    letter-spacing: 1.1px;
+  }
+
+  div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 8px;
+
+    img {
+      position: relative;
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+.modalBackground {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #000d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+
+  svg {
+    cursor: pointer;
+    &:hover {
+      fill: #ffffff;
+    }
+  }
+
+  img {
+    user-select: none;
+    max-width: 80vw;
+    max-height: 53.3vw;
+  }
+}
