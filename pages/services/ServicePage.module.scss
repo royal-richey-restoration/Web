@@ -136,16 +136,26 @@
       }
 
       .rightBottom {
+        position: relative;
         display: flex;
         justify-content: space-between;
         gap: 40px;
         padding: 24px 0px;
 
-        @media only screen and (max-width: 1024px) {
+        @media only screen and (max-width: 768px) {
           flex-flow: column nowrap;
           img {
             width: 100%;
             height: auto;
+          }
+        }
+
+        img {
+          width: calc(50%);
+          height: auto;
+
+          @media only screen and (max-width: 768px) {
+            width: 100%;
           }
         }
 

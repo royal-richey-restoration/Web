@@ -1,0 +1,164 @@
+.banner {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+
+  h1 {
+    width: min(1000px, 90%);
+    font-size: min(max(36px, 6vw), 48px);
+    letter-spacing: 1.1px;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgb(51 51 51 / 80%);
+  }
+
+  img {
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+.heading {
+  margin: 64px auto;
+  position: relative;
+  font-size: min(max(28px, 3vw), 44px);
+  letter-spacing: 1.1px;
+  text-align: center;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 56px;
+    height: 2px;
+    left: calc(50% - 28px);
+    bottom: -18px;
+    background-color: var(--orange);
+  }
+}
+
+.link {
+  position: relative;
+  width: fit-content;
+  &:hover {
+    color: var(--orange);
+    svg {
+      display: initial;
+    }
+  }
+  svg {
+    position: absolute;
+    top: 10px;
+    transform: translateX(-48px);
+    display: none;
+  }
+}
+
+.projectsWrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  padding: 36px min(max(16px, 8%), 240px) 72px;
+
+  .card {
+    position: relative;
+    flex: 1 0 290px;
+    max-width: 500px;
+    min-width: 33%;
+
+    figure {
+      margin: 0px;
+      border-radius: 8px;
+      box-shadow: 0 1px 21px rgb(0 0 0 / 21%);
+      background-color: var(--grey);
+      color: var(--orange);
+
+      &:hover {
+        background-color: var(--light-grey);
+        p {
+          color: var(--grey);
+        }
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px 8px 0px 0px;
+        object-fit: cover;
+      }
+
+      figcaption {
+        min-height: 110px;
+        padding: 24px 10% 4px;
+        font-size: min(max(28px, 2.5vw), 36px);
+        font-weight: 700;
+      }
+
+      p {
+        padding: 0px 10% 48px;
+        color: var(--light-grey);
+      }
+    }
+  }
+}
+
+.slug {
+  position: relative;
+  padding: 36px min(max(16px, 8%), 240px) 72px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .meta {
+    margin: 24px 0px;
+    .posted {
+      margin: 0px 0px 4px;
+      em {
+        font-weight: 600;
+      }
+    }
+    .tags {
+      em {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .details {
+    max-width: 66%;
+    margin: 48px auto;
+
+    @media only screen and (max-width: 768px) {
+      max-width: 90%;
+    }
+
+    h3 {
+      position: relative;
+      font-size: min(max(24px, 3vw), 32px);
+      letter-spacing: 1.1px;
+      margin-bottom: 36px;
+      &::after {
+        position: absolute;
+        content: "";
+        width: 56px;
+        height: 2px;
+        left: 0px;
+        bottom: -18px;
+        background-color: var(--orange);
+      }
+    }
+
+    p {
+      margin-top: 24px;
+      font-size: 18px;
+      line-height: 150%;
+    }
+  }
+}
