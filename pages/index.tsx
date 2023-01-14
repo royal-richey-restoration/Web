@@ -77,7 +77,7 @@ export default function Home() {
         </article>
         <div className={styles.welcome}>
           <article>
-            <h2>Welcome to Royal Wood Floors</h2>
+            <h2>Welcome to Royal Richey Restoration</h2>
             <p>
               Our company started in year 2000 in Milwaukee, Wisconsin, We
               serviced that area for 15 years, then relocated to{" "}

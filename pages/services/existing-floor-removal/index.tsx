@@ -27,10 +27,11 @@ export default function FloorRemoval() {
           certain types of floor removal is best left to the professionals.
         </p>
         <p>
-          Another reason to have the profesionals at Royal Wood Floor remove
-          your existing floor is not only much better dust-mitigation, but also
-          implementing cautionary methods to protect your under-flooring from
-          unexpected damage — as well as your walls and furtniture.
+          Another reason to have the profesionals at Royal Richey Restoration
+          remove your existing floor is not only much better dust-mitigation,
+          but also implementing cautionary methods to protect your
+          under-flooring from unexpected damage — as well as your walls and
+          furtniture.
         </p>
         <p>
           We are proficient and meticulous about our making our work flawless

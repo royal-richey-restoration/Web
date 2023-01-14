@@ -91,8 +91,8 @@ export default function Services({}) {
         <div className={styles.textContainer}>
           <div>
             <p>
-              Protect your investment by hiring Royal Wood Floors to provide a
-              cost effective solution to your flooring issues.
+              Protect your investment by hiring Royal Richey Restoration to
+              provide a cost effective solution to your flooring issues.
             </p>
             <p>
               The best way to prevent problems is to is to seek professional
@@ -126,25 +126,29 @@ export default function Services({}) {
           <div className={styles.left}>
             <h3>WOOD FLOOR BUFF & COAT</h3>
             <div className={styles.pricingSection}>
-              <p>$1.99 per Sq. Foot</p>
+              <p>$2.50 per Sq. Foot</p>
+              <p>(plus cost of the finish you wish to be applicated)</p>
               <p>$500 Minimum</p>
               <p>With 1 Coat</p>
             </div>
             <div className={styles.pricingSection}>
               <h4>Additional Coats:</h4>
-              <p>50 cents / Sq. Foot</p>
+              <p>$1 / Sq. Foot</p>
+              <p>(plus cost of the finish you wish to be applicated)</p>
             </div>
           </div>
           <div className={styles.right}>
             <h3>WOOD FLOOR SAND & FINISH</h3>
             <div className={styles.pricingSection}>
               <p>$3.99 per Sq. Foot</p>
+              <p>(plus cost of the finish you wish to be applicated)</p>
               <p>$500 Minimum</p>
               <p>With 3 Coats</p>
             </div>
             <div className={styles.pricingSection}>
               <h4>Additional Coats:</h4>
-              <p>50 cents / Sq. Foot</p>
+              <p>$1 / Sq. Foot</p>
+              <p>(plus cost of the finish you wish to be applicated)</p>
             </div>
             <div className={styles.pricingSection}>
               <h4>Add Wood Stain:</h4>

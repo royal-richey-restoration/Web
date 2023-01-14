@@ -22,9 +22,9 @@ export const PROJECTS: Project[] = [
     created: new Date("2 Jun 2014").toISOString(),
     image: "/images/projects/project1a.jpg",
     location: "Florida",
-    slug: "morningstar-golfers-club",
-    tags: ["Event Venues", "Custom"],
-    title: "Morningstar Golfing Club",
+    slug: "nautical-medallion",
+    tags: [],
+    title: "Nautical Medallion Inlayed into Brazillian Cherry Wood Floor",
   },
   {
     children: `<p>Project description... coming soon.</p>`,
@@ -49,9 +49,9 @@ export const PROJECTS: Project[] = [
     created: new Date("5 Jun 2014").toISOString(),
     image: "/images/projects/project4a.jpg",
     location: "Florida",
-    slug: "wooden-staircase-replacement",
-    tags: ["Staircase", "Replacement", "Custom"],
-    title: "Wooden Staircase Replacement",
+    slug: "woven-repairs",
+    tags: [],
+    title: "Woven in Repairs to Existing Wood Floors",
   },
 ];
 
@@ -88,7 +88,11 @@ const ProjectCard = ({ image, slug, tags, title }: Project) => {
         <Image src={image} alt={title} height={800} width={1200} />
         <figcaption>{title}</figcaption>
         <p>
-          Tags: <em>{tags.length > 1 ? tags.join(", ") : tags[0]}</em>
+          {!!tags.length && (
+            <span>
+              Tags: <em>{tags.length > 1 ? tags.join(", ") : tags[0]}</em>
+            </span>
+          )}
         </p>
       </figure>
     </Link>

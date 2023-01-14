@@ -83,24 +83,24 @@ export default function About({}) {
               </h3>
               <p>
                 And, when it comes to beautiful and ornate hardwood floors in
-                Florida, there is only one answer: Royal Wood Floors. For more
-                than 20 years now, Keith Allman, founder of Royal Wood Floors,
-                has been overseeing and personally installing some the most
-                gorgeous and elaborate hardwood floors and custom installation
-                artwork. Their wood floor refinishing services provided are some
-                of the best quality in the nation.
+                Florida, there is only one answer: Royal Richey Restoration. For
+                more than 20 years now, Keith Allman, founder of Royal Richey
+                Restoration, has been overseeing and personally installing some
+                the most gorgeous and elaborate hardwood floors and custom
+                installation artwork. Their wood floor refinishing services
+                provided are some of the best quality in the nation.
               </p>
               <p>
-                In this age of eco-consciosness, Royal Wood Floors is leading
-                the pack with their “go green” themed ideology. They use a well
-                maintained fleet of fuel efficient vehicles and also offer
-                bamboo flooring which is the world’s most renewable wood source,
-                causing no lingering damage to the environment.
+                In this age of eco-consciosness, Royal Richey Restoration is
+                leading the pack with their “go green” themed ideology. They use
+                a well maintained fleet of fuel efficient vehicles and also
+                offer bamboo flooring which is the world’s most renewable wood
+                source, causing no lingering damage to the environment.
               </p>
               <p>
                 If you are looking for a new beautiful hardwood floor or wood
                 floor refinishing for your home or business, your search ends
-                with Royal Wood Floors.
+                with Royal Richey Restoration.
               </p>
               <h4>
                 Call Us Today for your free estimate:{" "}
