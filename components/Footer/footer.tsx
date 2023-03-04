@@ -21,7 +21,10 @@ export const Footer = () => {
             width={64}
           />
         </div>
-        <p>© 2022 | Royal Richey Restoration - All rights reserved.</p>
+        <p>
+          © {new Date().getFullYear()} | Royal Richey Restoration - All rights
+          reserved.
+        </p>
         <div className={styles.right}>
           <Link href="https://www.facebook.com">
             <FaFacebook size={35} color="var(--light-grey)" />
